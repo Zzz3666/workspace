@@ -1,0 +1,20 @@
+{
+    "cmsis-csolution.actions": [
+        {
+            "path": "*",
+            "target": "*",
+            "config": {
+                "run": "Flash Device",
+                "debug": "Embedded Debug"
+            },
+            "projects": [
+                {
+                    "path": "project/Project/Project.cproject.yml",
+                    "config": {
+                        "debug": "Embedded Debug"
+                    }
+                }
+            ]
+        }
+    ]
+}
